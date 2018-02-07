@@ -1,0 +1,5 @@
+TAKE, Old floppy disk, Secret vault #11, 100
+DROP, Weird key, Atrium, 100
+VISIT,-, Atrium, 100
+TAKE, Small note, Maintenance closet, 100
+VISIT,-, Secret vault #11,100

@@ -1,0 +1,52 @@
+Bright orange hallway
+Common room,-,Computer control room,-
+You are in a long hallway, with bright orange walls, and long, smooth, fluorescent lights lining
+the ceiling. To the right their is a long window, but it is mostly covered by tropical flora.
+Only a few stray beams of sunlight stream in where they can.
+END
+Computer control room
+Lobby,-,-,Bright orange hallway
+You are in a dark room, with no windows. In the corner, there is a small, old, and beaten up
+aluminum desk. On it, there is an old Apple III computer, and a single, barely working lamp.
+END
+Common room
+Old elevator shaft,Bright orange hallway,Lobby,-
+You are in a room with the same bright orange metallic walls that you have seen before. There are 
+plants in each corner, as well as a flat-screen television mounted on the north wall. Along
+the southern wall is one out of place leather couch. There is also an elevator door.
+END
+Secret vault #11
+-,-,-,Old elevator shaft
+You are in a room encapsulated by thick metal walls. The only light is coming from an old
+light fixture on the ceiling that gives an eery green hue to the room. There are old computing 
+devices from the 60's that take up the whole wall, and a worn down cot in the corner.
+END
+Old elevator shaft
+-,Common room,Secret vault #11,-
+You have forced open the elevator doors and are now in the bottom of a retired elevator shaft.
+In fact, it doesn't seem like there ever was an elevator vessel ever even installed. You notice
+a small crawlspace covered only by a small door broken off from its hinges.
+END
+Lobby
+-,Computer control room,Atrium,Common room
+You are now in what seems to be an old lobby. The walls are orange, just like the rest,
+but a more worn down and dirty. The front desk is empty. There is the remnants of a sign
+behind the front desk spell out " Ape-u-e S-en-e."
+END
+Atrium
+Long hallway,Maintenance closet,-,Lobby
+You are in a large room with large glass windows and a glass ceiling. However, you cannot
+see much aside from spots of sunlight due to the excessive growth of vines and weeds. There
+a door to your north through which you see a long hallway. There is a padlock on the door.
+END
+Long hallway
+-,Atrium,-,-
+There is a long window to your east, caked in dirt. At the end of the hallway you see a bright 
+light streaming in from a doorway. It seems as though there is an river not far away, if you could
+only get the door open.
+END
+Maintenance closet
+Atrium,-,-,-
+You are in an old maintenance closet. It doesn't seem to be anything special. The supply shelves 
+are mostly empty. You do notice, however, a pile of old notes from whoever worked here.
+END

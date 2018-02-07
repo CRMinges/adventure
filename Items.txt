@@ -1,0 +1,26 @@
+Old floppy disk
+Computer control room
+An old floppy disk, looks like it has been used for a long time. There writing on it 
+that reads "#11".
+END
+Key card
+Common room
+An dirty old plastic key card. The name seems to read "George O. Bluth." He seems to have 
+been a technician. Seems like it can be used to access elevators.
+END
+Weird key
+Old elevator shaft
+A weird key that looks like a lever lock key from a century ago. It looks like it may be able
+to unlock a padlock of some kind.
+END
+Satellite phone
+Lobby
+A bulky satellite phone. On it is a note that read "EMERGENCY USE ONLY". You turn it on and it 
+has a faint signal. If you can get outside, possibly to higher ground it may work better. However,
+ you must turn it off to conserve the battery, as it is almost dead.
+END
+Small note
+Maintenance closet
+A small, folded up piece of paper. On it, someone has written "note to self, find key, check close
+hallway."
+END

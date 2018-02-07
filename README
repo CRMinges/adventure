@@ -1,0 +1,99 @@
+Adventure, by Charlie Minges
+
+1: Introduction
+2: Interacting with world
+3: Goals
+4: Text file format
+
+
+1: Introduction
+
+Welcome to Adventure. In the coming hours, you will embark on a mysterious journey to escape the mysterious
+landscape that you have inexplicably woken up in. The best tool you have with you is the power of exploration.
+In order to ultimately escape, you will have to explore your surroundings, encountering a variety of items along
+the way. 
+
+2: Interacting with the world
+
+NOTE: Commands are NOT case sensitive.
+
+LOOK
+There are many ways you can interact with the world around you. One of the first things you may want to do is 
+get a better idea of what is around you. To do this, you can use the look command. This will return a description
+of the room you are in, as well as the possible directions you can move, and any items in the room at the time.
+To execute this command, simply type "look" into the console when given the opportunity.
+
+LOOK @ OBJECT
+You can also look at objects, along with rooms. To look at an object, type "look" followed by the name of the 
+object you want to look at. It is IMPORTANT TO NOTE that you can only look at objects in your inventory. When 
+this command is executed, you will be given the name of the object, as well as a short description for it. 
+
+MOVE
+The next thing you will have to do to escape is move. Moving is quite simple. You must be aware that you are 
+allowed to move in the direction you desire from the room you are currently in. This information can be found 
+by looking at the room (SEE LOOK). To move, you either type "move" or "go" into the command line, followed by
+the desired direction (in terms of north, south, east, west). You can also just type in the direction you wish 
+to go. If you have moved successfully, a description of the new room you are in will be printed out to the 
+console.
+
+TAKE
+Items are an important aspect of Adventure. One way you can interact with them is by taking them. If you are in 
+a room that has an item, you can enter "take", or "get", followed by the item name, to add that item to your
+inventory. This will subsequently remove the object from the rooms inventory.
+
+DROP
+Along with taking items, you can also drop them. To drop an item from your inventory, simply type in the command
+"drop", followed by the name of the item you wish to drop. This will add the item to the rooms inventory, and remove
+it from your own.
+
+OTHER
+The last two commands available to you, the player, are "inventory" and "score". Inventory will return the names 
+of all the items in your inventory, or tell you if it is empty. Score will return a number representing the score
+you have accumulated while playing. They are both accessed by typing in either "inventory" or "score", depending 
+on which you want.
+
+3: Goals and Scoring
+
+There are a variety of goals that the player should reach throughout the game before being able to escape. A goal 
+will consist of either taking/dropping an item from/in a particular room, or visiting a particular room. When you 
+complete a goal, you get points. You need to complete all goals then visit a particular room in order to escape. The
+goal you need to meet for points is 500. Once you have 500 points, you will be directed to a particular particular
+room to complete your escape.
+
+4: Text file format
+
+Text files are used to create the rooms and items, as well as guidelines for scoring. Due to this, they need to be
+set up in a particular way. It is important to note that, whenever using room names, they must match exactly, including
+capitalization.
+
+ROOMS
+One room object will read in three different pieces of information: name, neighbors, and description. In the text file,
+the information should be organized as follows...
+					name
+					north(room name), south(room name), east(room name), west(room name)
+					description (can extend for multiple lines)
+					END
+You must add END, in all caps, at the end of one rooms description, in order for the program to make the distinction 
+that it is going to make a new room. For the neighbors, put the names of the rooms to the north, south, east, and west
+(must be done in order shown in example). If there are no neighbors to one direction, use -. You must also include END
+for the last rooms text description.
+
+ITEMS
+Items are handled in a similar fashion to rooms. They include information regarding name, starting location, and a short
+description. The information should be set up as follows
+					name
+					starting location (room name)
+					description (can extend for multiple lines)
+					END
+Similar to rooms, END must be included at the end, so the program can make the distinction between two objects. You must
+also include END after the last items text description.
+
+SCORING
+Scoring information includes the type of action (take, drop, visit), the object involved (if there is one), the room it
+must take place in, and the points awarded. The information should be set up as follows
+					action, item, room, points
+If the action does not involve an item, put a - where an item name would otherwise go. No single segment of information 
+for one Score object should extend beyond one line.
+
+
+Thank you for reading me! Now go enjoy the game, and email me at charles.minges@hws.edu if you have any more questions.
